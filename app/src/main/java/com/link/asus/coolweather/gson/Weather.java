@@ -2,12 +2,14 @@ package com.link.asus.coolweather.gson;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.List;
+
 /**
  * Created by Asus on 2018/3/14.
  */
 
 public class Weather {
-    public String Status;
+    public String status;
     public Basic basic;
     public AQI aqi;
     public Now now;
